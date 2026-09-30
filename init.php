@@ -7,5 +7,6 @@ Kohana::$config->load('menu')
         'url' => 'event',
         'icon' => 'fa-cog',
         'order' => 20,
+		'disabled' => true, 
        
     ));
