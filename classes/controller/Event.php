@@ -56,6 +56,8 @@ class Controller_Event extends Controller_Template {
 			case 504:
 			case 505:
 			case 506:
+			case 5071:
+			case 5091:
 				$analyt_result=Model::factory('event')->getAnalytCodeList($analyt_code);
 				$analyt_result_door=Model::factory('event')->getAnalytListDoor($analyt_code);// список точек прохода, где наблюдались заданные коды аналитики
 				$content=View::factory('Event/event_analyt', array(

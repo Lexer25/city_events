@@ -188,6 +188,19 @@ return array(
 		'test_mode_is_ON' =>  '0',
 		'desc' => 'Проход разрешен правильно',
 		'recommendation' => 'Система работает правильно, ничего делать не надо.'),
+	'5071' => array(
+		'analit_code'=>'0',
+		'code' => '5071',
+		'people_is_active' => '1',
+		'card_is_active' => '1',
+		'pass_is_valide' =>  '1',
+		'order_for_load'=> '0',
+		'order_for_delete'=> '0',
+		'single_list' =>  '0',
+		'test_mode_is_ON' =>  '0',
+		'desc' => 'Проход разрешен правильно, срок дейсвтия карты истек.',
+		'recommendation' => 'Необходимо или удалить идентификатор, или продлить его срок действия.'),
+	
 	'508' => array(
 		'analit_code'=>'2',
 		'code' => '508',
@@ -201,6 +214,18 @@ return array(
 		'desc' => 'Все разрешено, но почему-то стоит на удаление.',
 		'recommendation' => ''),
 	'509' => array(
+		'analit_code'=>'0',
+		'code' => '5091',
+		'people_is_active' => '1',
+		'card_is_active' => '1',
+		'pass_is_valide' =>  '1',
+		'order_for_load'=> '0',
+		'order_for_delete'=> '1',
+		'single_list' =>  '1',
+		'test_mode_is_ON' =>  '0',
+		'desc' => 'Проход разрешен правильно, работа в режиме Единый список',
+		'recommendation' => 'Система работает правильно, ничего делать не надо.'),
+	'5091' => array(
 		'analit_code'=>'1',
 		'code' => '509',
 		'people_is_active' => '1',
@@ -211,7 +236,8 @@ return array(
 		'single_list' =>  '1',
 		'test_mode_is_ON' =>  '0',
 		'desc' => 'Проход разрешен правильно, работа в режиме Единый список',
-		'recommendation' => 'Система работает правильно, ничего делать не надо.'),
+		'recommendation' => 'Необходимо или удалить идентификатор, или продлить его срок действия.'),
+		
 	'510' => array(
 		'analit_code'=>'3',
 		'code' => '510',
