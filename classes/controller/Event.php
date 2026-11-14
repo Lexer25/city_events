@@ -50,7 +50,11 @@ class Controller_Event extends Controller_Template {
 			case 145:
 				$this->redirect('event/test_mode/145');
 			break;
+			case 501:
+			case 502:
 			case 503:
+			case 504:
+			case 505:
 			case 506:
 				$analyt_result=Model::factory('event')->getAnalytCodeList($analyt_code);
 				$analyt_result_door=Model::factory('event')->getAnalytListDoor($analyt_code);// список точек прохода, где наблюдались заданные коды аналитики
